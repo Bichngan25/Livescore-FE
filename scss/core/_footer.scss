@@ -1,0 +1,74 @@
+footer {
+    background: #EAEFF4;
+    padding-top: 10px;
+
+    .content {
+
+        .text {
+            color: #575D68;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    .navfooter {
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+
+            li {
+                color: #29292C;
+                font-family: Manrope;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 24px;
+                /* 171.429% */
+                text-transform: uppercase;
+            }
+        }
+
+    }
+
+    .address {
+        .text {
+            color: #575D68;
+            text-align: center;
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+        }
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .img {
+        img {
+            margin: auto;
+            padding-top: 14px;
+        }
+    }
+
+    .copyright {
+        color: #575D68;
+        text-align: center;
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,65 @@
+.homeplayingpage {
+    background: #EAEFF4;
+    .content {
+        &__right {
+            &-item {
+                .content__group {
+                    padding-bottom: 20px;
+                    .title {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        background-color: #F3F5F7;
+                        padding: 15px 12px;
+                        border: 1px solid #D5DFE9;
+                        border-radius: 10px 10px 0 0 ;
+
+                        .country {
+                            color: #29292C;
+                            font-family: Manrope;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 20px;
+                            /* 142.857% */
+                            text-transform: uppercase;
+                        }
+
+                        .text {
+                            color: #29292C;
+                            font-family: Manrope;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 20px;
+
+                        }
+                    }
+
+                    .item {
+                        border-radius: initial;
+                        margin-bottom: initial;
+                        display: grid;
+                        grid-template-columns: 1fr 2fr 1fr 1fr;
+                        &:last-child{
+                            border-radius: 0 0 12px 12px;
+                        }
+                        .club{
+                            &__item{
+                                .group{
+                                    span{
+                                        white-space: nowrap;
+                                    }
+                                }
+                                .score{
+                                    // text-align: end;
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
