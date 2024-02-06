@@ -1,11 +1,16 @@
  .navbar {
      &-nav {
-        gap: 42px;
+         gap: 42px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+
          .nav-item {
-            padding: 10px 0;
+             padding: 10px 0;
              a {
                  display: flex;
                  align-items: center;
+                 justify-content: space-between;
                  font-family: Manrope;
                  font-size: 14px;
                  font-style: normal;
@@ -16,28 +21,41 @@
                  gap: 5px;
                  color: #575D68;
              }
-                &.active,
-    
-                &:hover {
-                    a{
-                        color: var(--green-cl);
-                    }
-                    &::after {
-                        // content: "";
-                        // width: calc(100% - 30px);
-                        // height: 2px;
-                        // background-color: var(--green-cl);
-                        // display: inline-block;
-                        // position: absolute;
-                        // bottom: -5px;
-                        // left: 50%;
-                        // transform: translateX(-50%);
-                        // transform-origin: left;
-                        // color: var(--green-cl);
-                    }
-                }
-           
-         
+
+             &.active,
+
+             &:hover {
+                background-color: initial;
+                 a {
+                     color: var(--green-cl);
+                     background-color: initial;
+                 }
+
+                 &::after {
+                    //  content: "";
+                    //  width: calc(100% - 30px);
+                    //  height: 2px;
+                    //  background-color: var(--green-cl);
+                    //  display: inline-block;
+                    //  position: absolute;
+                    //  bottom: -5px;
+                    //  left: 50%;
+                    //  transform: translateX(-50%);
+                    //  transform-origin: left;
+                    //  color: var(--green-cl);
+                 }
+             }
+
+
          }
      }
+ }
+ .dropdown{
+    list-style-type: none;
+    width: 200px;
+    .nav-link{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
  }

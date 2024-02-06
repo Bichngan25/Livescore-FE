@@ -18,43 +18,43 @@ body {
         height: 100vh;
         overflow: hidden;
     }
-    .container-fluid {
-        width: 100%;
-        max-width: var(--max-width-container-fluid);
-        padding-right: var(--gap);
-        padding-left: var(--gap);
-        margin-right: auto;
-        margin-left: auto;
-        position: relative;
-    }
+    // .container-fluid {
+    //     width: 100%;
+    //     max-width: var(--max-width-container-fluid);
+    //     padding-right: var(--gap);
+    //     padding-left: var(--gap);
+    //     margin-right: auto;
+    //     margin-left: auto;
+    //     position: relative;
+    // }
 
-    .container {
-        width: 100%;
-        max-width: var(--max-width-container);
-        padding-right: var(--gap);
-        padding-left: var(--gap);
-        margin-right: auto;
-        margin-left: auto;
-        position: relative;
-    }
-    .container-small{
-        width: 100%;
-        max-width: var(--max-width-container-small);
-        padding-right: var(--gap);
-        padding-left: var(--gap);
-        margin-right: auto;
-        margin-left: auto;
-        position: relative;
-    }
-    .container-m{
-        width: 100%;
-        max-width: var(--max-width-container-m);
-        padding-right: var(--gap);
-        padding-left: var(--gap);
-        margin-right: auto;
-        margin-left: auto;
-        position: relative;
-    }
+    // .container {
+    //     width: 100%;
+    //     max-width: var(--max-width-container);
+    //     padding-right: var(--gap);
+    //     padding-left: var(--gap);
+    //     margin-right: auto;
+    //     margin-left: auto;
+    //     position: relative;
+    // }
+    // .container-small{
+    //     width: 100%;
+    //     max-width: var(--max-width-container-small);
+    //     padding-right: var(--gap);
+    //     padding-left: var(--gap);
+    //     margin-right: auto;
+    //     margin-left: auto;
+    //     position: relative;
+    // }
+    // .container-m{
+    //     width: 100%;
+    //     max-width: var(--max-width-container-m);
+    //     padding-right: var(--gap);
+    //     padding-left: var(--gap);
+    //     margin-right: auto;
+    //     margin-left: auto;
+    //     position: relative;
+    // }
     .main {
         position: relative;
         section {
@@ -62,11 +62,11 @@ body {
         }
     }
 
-    @include xs {
-        // .container-fluid,
-        .container {
-            padding-right:15px;
-            padding-left: 15px;
-        }
-    }
+    // @include xs {
+    //     // .container-fluid,
+    //     .container {
+    //         padding-right:15px;
+    //         padding-left: 15px;
+    //     }
+    // }
 }
