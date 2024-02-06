@@ -1,12 +1,13 @@
  .navbar {
      &-nav {
-         gap: 42px;
+         gap: 40px;
          display: flex;
          align-items: center;
          justify-content: space-between;
 
          .nav-item {
              padding: 10px 0;
+             margin-right: initial;
              a {
                  display: flex;
                  align-items: center;
@@ -50,6 +51,22 @@
          }
      }
  }
+ .dropdowngroup{
+    .nav-item{
+        margin-right: initial;
+        background-color: #fff;
+        &.active,
+
+        &:hover {
+           background: #fff;
+            a {
+                color: #575D68;
+                background-color: initial;
+            }
+        }
+    }
+
+ }
  .dropdown{
     list-style-type: none;
     width: 200px;
@@ -57,5 +74,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-right: initial;
     }
  }
